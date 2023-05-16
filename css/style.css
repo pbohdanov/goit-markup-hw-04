@@ -17,7 +17,7 @@
   --portfolio-button-boader-color: #e7e9fc;
   --icon-background-colour: #f4f4fd;
   --social-link-background-colour: #4d5ae5;
-  --social-link-icon-colour: F4F4FD;
+  --social-link-icon-colour: #f4f4fd;
 }
 
 body {
@@ -333,7 +333,7 @@ img {
 /*  ul  */
 .social-link-list {
   display: flex;
-  margin-top: 0;
+  margin-top: 8px;
   margin-bottom: 0;
   padding-left: 0;
   align-items: center;
@@ -342,7 +342,6 @@ img {
 }
 /* li  */
 .social-link-item {
-  background-color: var(--social-link-background-colour);
   width: 40px;
   height: 40px;
 }
@@ -351,6 +350,7 @@ img {
 .social-link-icon {
   display: block;
   width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -367,6 +367,8 @@ img {
 .social-icon {
   fill: var(--social-link-icon-colour);
 }
+
+/* ========== Customers - Section 4 ========== */
 
 /* ========== Footer ========== */
 .footer {
