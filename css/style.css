@@ -15,6 +15,7 @@
   --button-background-color: #f4f4fd;
   --button-text-color: #4d5ae5;
   --portfolio-button-boader-color: #e7e9fc;
+  --icon-background-colour: #f4f4fd;
 }
 
 body {
@@ -234,8 +235,18 @@ img {
   letter-spacing: 0.02em;
 }
 
-.future-list-text-width {
+.feature-list-text-width {
   width: calc((100% - 48px) / 3);
+}
+
+.features-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: var(--icon-background-colour);
 }
 
 /* Section 2  What we are doing*/
