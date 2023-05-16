@@ -16,6 +16,8 @@
   --button-text-color: #4d5ae5;
   --portfolio-button-boader-color: #e7e9fc;
   --icon-background-colour: #f4f4fd;
+  --social-link-background-colour: #4d5ae5;
+  --social-link-icon-colour: F4F4FD;
 }
 
 body {
@@ -326,7 +328,34 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* Footer */
+/*  ul  */
+.social-link-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+/* li  */
+.social-link-item {
+  background-color: var(--social-link-background-colour);
+  width: 40px;
+  height: 40px;
+}
+
+/* a href */
+.social-link-icon {
+  display: block;
+}
+
+/* svg */
+.social-icon {
+  fill: var(--social-link-icon-colour);
+}
+
+/* ========== Footer ========== */
 .footer {
   padding: 100px 0;
   background-color: var(--background-color-hero);
