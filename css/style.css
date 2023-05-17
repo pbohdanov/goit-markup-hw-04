@@ -443,9 +443,6 @@ img {
 
 /* --- logo div --- */
 .footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-  margin-left: 0;
   margin-right: 120px;
 }
 .footer-text {
