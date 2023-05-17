@@ -21,6 +21,7 @@
   --customer-section-title-colour: #2e2f42;
   --customer-section-icon-color: #8e8f99;
   --footer-text-social-color: #ffffff;
+  --footer-social-link-color: #f4f4fd;
 }
 
 body {
@@ -373,7 +374,7 @@ img {
 
 /* ========== Customers - Section 4 ========== */
 
-.our-customer-section {
+.customer-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -440,7 +441,7 @@ img {
   color: var(--button-background-color);
 }
 
-/* --- div --- */
+/* --- logo div --- */
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -461,10 +462,11 @@ img {
   font-weight: 500;
   color: var(--footer-text-social-color);
   margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-social-link-icon {
-  display: block;
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -482,12 +484,20 @@ img {
 
 .footer-social-link-list {
   display: flex;
-  margin-top: 8px;
   margin-bottom: 0;
   padding-left: 0;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
+}
+
+.footer-social-link-item {
+  height: 40px;
+  width: 40px;
+}
+
+.footer-social-icon {
+  fill: var(--footer-social-link-color);
 }
 
 /* Portfolio */
